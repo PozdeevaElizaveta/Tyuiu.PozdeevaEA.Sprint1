@@ -1,5 +1,5 @@
 ﻿using Tyuiu.PozdeevaEA.Sprint1.Task0.V0.Lib;
-namespace Tyuiu.PozdeevaEA.Sprint1.Task0.V0.Test
+namespace Tyuiu.PozdeevaEA.Sprint1.Task0.V15.Test
 {
     [TestClass]
     public sealed class DataServiceTest
