@@ -6,6 +6,7 @@ namespace Tyuiu.PozdeevaEA.Sprint1.Task5.V7.Lib
         public int AngleToHoursMinutes(double f)
         {
             double res = f / (360 / 12);
+            res = Math.Truncate(res);
             int h = Convert.ToInt32(res);
             return h;
         }

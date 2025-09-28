@@ -32,8 +32,9 @@ internal class Program
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
 
-        int h = Convert.ToInt32(ds.AngleToHoursMinutes(f));
-
+        double res = ds.AngleToHoursMinutes(f);
+        res = Math.Truncate(res);
+        int h = Convert.ToInt32(res);
         Console.WriteLine(h);
 
         Console.ReadLine();
