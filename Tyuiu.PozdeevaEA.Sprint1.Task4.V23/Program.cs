@@ -35,10 +35,10 @@ internal class Program
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
 
-        Console.WriteLine("          _______                                                         *");
-        Console.WriteLine("*        / |x+y|                                                          *");
-        Console.WriteLine("*       --------- = " + Math.Round(ds.Calculate(x,y), 3));
-        Console.WriteLine("*          |3-x|                                                          *");
+        Console.WriteLine("   _______                                                                *");
+        Console.WriteLine("* / |x+y|                                                                 *");
+        Console.WriteLine("* --------- = " + ds.Calculate(x, y));
+        Console.WriteLine("*   |3-x|                                                                 *");
     
         Console.ReadLine();
     }
