@@ -1,5 +1,5 @@
-﻿using Tyuiu.PozdeevaEA.Sprint1.Task4.V23.Lib;
-namespace Tyuiu.PozdeevaEA.Sprint1.Task4.V23.Test
+﻿using Tyuiu.PozdeevaEA.Sprint1.Task5.V7.Lib;
+namespace Tyuiu.PozdeevaEA.Sprint1.Task5.V7.Test
 {
     [TestClass]
     public sealed class DataServiceTest
@@ -8,10 +8,12 @@ namespace Tyuiu.PozdeevaEA.Sprint1.Task4.V23.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = 7  ;
-            double y = 9;
-            double wait = 1;
-            var res = ds.Calculate(x, y);
+            double f = 180;
+            
+            var res = ds.AngleToHoursMinutes(f);
+           
+            int wait = 6;
+
             Assert.AreEqual(wait, res);
         }
     }
